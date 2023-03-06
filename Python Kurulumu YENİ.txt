@@ -1,0 +1,60 @@
+Öncelikle Mozilla Firefox son sürümü indirin...
+
+Python Kurulumu ve Sistem Pathine Eklenmesi
+----------------------------------------------
+1) Masaüstüne sahibinden adlı bir klasör oluşturun
+2) sahibinden.py adlı dosyayı oluşturduğunuz klasöre atın
+3) https://www.anaconda.com/products/distribution   sitesine gidin ve Download butonuna tıklayın
+4) İndirilen dosyaya çift tıklayın "All users" seçeneğini seçin, Yüklenecek konumu C:\Anaconda3 
+   olarak güncelleyin next next diyerek kurulumu başlatın
+5) next next şeklinde kurulumu tamamlayın
+6) kurulum tamamlandıktan sonra çıkan ekrandaki seçeneklerin ikisinden de tiki kaldırın ve kapatın
+7) Bilgisayarıma sağ tıklayıp özelliklere tıklayın 
+8) açılan ekranda sağ alttaki Gelişmiş Sistem Ayarlarına tıklayın
+9) Ortam Değişkenlerine tıklayın
+10) açılan ekranda alttaki Sistem Değişkenleri alanındaki Path'e çift tıklayın
+11) sağdaki Yeni butonuna tıklayın
+12) C:\Anaconda3   yapıştırın ve tamama tıklayın
+13) Tekrar pathe ve yeniye tıklayın 
+14) C:\Anaconda3\Library\usr\bin   yapıştırın ve tamama tıklayın
+15) yeninden pathe ve yeniye tıklayın
+16) C:\Anaconda3\Library\bin     yapıştırın ve tamama tıklayın
+17) yeninden pathe ve yeniye tıklayın
+18) C:\Anaconda3\Scripts    yapıştırın ve tamama tıklayın
+19) ekranları tamam butonlarına tıklayıp kapatın
+
+Geckodriver Kurulumu ve Sistem Pathine Eklenmesi
+---------------------------------------------------
+1) https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-win64.zip
+2) üstteki linki tarayıcıya yapıştırın indirme başlayacak
+3) indirilen dosyayı zipten çıkarın
+4) dosya içindeki geckodriver.exe dosyasını kopyalayıp masaüstüne oluşturduğunuz sahibinden adlı klasöre atın
+5) sahibinden klasörüne attığınız geckodriver'a sağ tıklayıp özelliklere basın ve konum kısmını kopyalayın
+6) kopyaladığınız konum şu tarz bir şey olmalı: C:\Users\yunus\Desktop\sahibinden
+7) Bilgisayarıma sağ tıklayın ve özelliklere basın
+8) Sağ alttaki Gelişmiş Sistem ayarlarına tıklayın
+9) Ortam Değişkenlerine tıklayın
+10) Daha önce alttaki Sistem Değişkenleri kısmındaki pathe ekleme yapmıştık bu sefer
+    üstteki ... adlı kullanıcı değişkenleri kısmındaki pathe çift tıklayıp yeni butonuna tıklıyoruz
+11) kopyalamış olduğumuz konumu yapıştırıp tamam butonlarına basarak ekranları kapatıyoruz
+
+Selenium Kurulumu
+-------------------
+1) CMD(Komut İstemcisi) açın ve   pip install selenium    yazıp entera basın
+2) Kurulum bittikten sonra cmd yi kapatın ve yeni bir CMD açın
+
+Programın Çalıştırılması
+-----------------------------
+1) açtığınız CMD'ye   cd Desktop   yazın ve entera basın
+2) cd sahibinden    yazın ve entera basın
+3) python sahibinden.py   yazın ve entera basın
+4) program çalışmaya başlayacak ve veri çekilecek linki isteyecek
+5) sahibinden üzerinden hangi kısmın verisini çekmek istiyorsanız sayfada gösterilen 
+   ilan sayısını 50 ye ayarlayın ve linki kopyalayıp cmd ye yapıştırın ve entera basın
+6) kaydedilecek dosyaya bir isim vermenizi isteyecek rastgele bir isim verin
+7) verdiğiniz isimde bir excel dosyası sahibinden adlı klasörde olmamalı
+8) eğer aynı isimde başka bir dosya varsa eskisini siler ve yeniden oluşturur o yüzden farklı isimler verin
+9) isim verip entera bastıktan sonra program çalışmaya başlar ve bir mozilla açılacak
+10) program bu tarayıcıda çalışacak o sebeple o tarayıcıyı kapatmayın
+11) herhangi bir sorunla karşılaşır ve programı kapatmak isterseniz cmdye gelip CTRL C yapın program verileri kaydedip kapanır
+12) eğer direkt X ya basıp cmdyi kapatırsanız verileri kaybedersiniz o sebeple program çalışırken durdurmanız gerekirse çalıştığı cmd de CTRL C yapın
